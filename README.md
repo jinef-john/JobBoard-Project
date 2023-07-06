@@ -1,0 +1,4 @@
+This app is a full-stack job portal built using Node.js, Express, React, MongoDB, and other technologies. To use it, you need to create a ".env" file with variables such as PORT, DATABASE, JWT_SECRET, and NODE_ENV. After creating the file, run "npm install" in the main folder, and then again in the "frontend" folder.
+To start the servers, "npm start", in main folder, and "npm start" in front end folder.
+
+The app has many features such as a dashboard for both admin and users, pagination, data grid, download in CSV, dark and light themes, etc. Admin can create jobs and categories while users can see their job history, search and filter jobs by location and category, apply for jobs, and receive toast notifications. The app uses modern authentication with JWT and cookies, and log-in and register forms are validated with Formik and Yup.
